@@ -1,7 +1,10 @@
 import Image from "next/image";
+import LikeButton from "./components/Likebutton";
 
 export default function Home() {
   return (
-  <div>THE FUCKING AMOUNT OF DISREPECT</div>
+  <div>
+    <LikeButton/>
+  </div>
   );
 }
